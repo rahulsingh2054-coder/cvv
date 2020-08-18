@@ -1,0 +1,222 @@
+body{
+margin: 0;
+color: #40514E;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+
+h1{
+  color: #363636;
+  width: 20%;
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.1rem;
+}
+h2{
+  color: #303960;
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+
+}
+h3{
+  color: #303960;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+  position: relative;
+  text-align: center;
+
+
+}
+.ean{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.top-left{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: white;
+}
+.middle-container{
+  position: relative;
+  margin: 0 auto 100px auto;
+
+}
+
+.bottom-container{
+  margin: 10px 50px 100px 50px;
+
+}
+.skills{
+  width: 50%;
+  margin:100px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.code{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.design{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.reading{
+width: 25%;
+float: left;
+margin-right: 30px;
+}
+.app{
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.sak{
+  width: 100%;
+}
+.web{
+  margin-top: 150px;
+  text-align: left;
+}
+.read{
+
+}
+.skill-row1{
+  margin-top: 150px;
+}
+.skill-row2{
+  margin-top: 150px;
+}
+.skill-row3{
+  margin-top: 150px;
+}
+.skill-row4{
+    margin-top: 150px;
+}
+.sk{
+  text-align: center;
+  outline:  5px black;
+  outline-style: inset;
+
+}
+.ean1{
+  font-size: 6rem;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+
+}
+.rr{
+  width: 100%;
+  margin-top: -50px;
+  height: -500px;
+}
+.rr1{
+  position: absolute;
+  top: 4px;
+  left: 26px;
+  color: black;
+  font-size: 8rem;
+margin-left: 25px;
+}
+.curved-round {
+	li {
+		&::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 4px;
+      top: 3px;
+      border-top: 9px solid transparent;
+      border-right: 9px solid $main_color;
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
+		}
+    &::after {
+      content: '';
+      position: absolute;
+      border: 0 solid transparent;
+      border-top: 3px solid $main_color;
+      border-radius: 20px 0 0 0;
+      top: 0;
+      left: -5px;
+      width: 12px;
+      height: 12px;
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+    }
+	}
+}
+.curved-round{
+  position: absolute;
+  margin-top: -800px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 2.5rem;
+  font-family: 'Sacramento', cursive;
+}
+}
+.Contact-me{
+  margin: 200px 0;
+}
+.gt{
+  margin: 100px auto 50px auto;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 200px auto ;
+}
+.btn {
+  background: #1d1f21;
+  background-image: -webkit-linear-gradient(top, #1d1f21, #171a1c);
+  background-image: -moz-linear-gradient(top, #1d1f21, #171a1c);
+  background-image: -ms-linear-gradient(top, #1d1f21, #171a1c);
+  background-image: -o-linear-gradient(top, #1d1f21, #171a1c);
+  background-image: linear-gradient(to bottom, #1d1f21, #171a1c);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: -10px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #4c5052;
+  background-image: -webkit-linear-gradient(top, #4c5052, #353738);
+  background-image: -moz-linear-gradient(top, #4c5052, #353738);
+  background-image: -ms-linear-gradient(top, #4c5052, #353738);
+  background-image: -o-linear-gradient(top, #4c5052, #353738);
+  background-image: linear-gradient(to bottom, #4c5052, #353738);
+  text-decoration: none;
+}
+a{
+  margin: 10px 20px;
+  color: black;
+}
